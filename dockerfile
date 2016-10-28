@@ -16,11 +16,6 @@ COPY files/billersplus-connector-emulador.war /opt/jboss/jboss-eap-6.1/standalon
 
 EXPOSE 8080 9990 9999
 
-#
-# The following directories can hold config/data, so lets suggest the user
-# mount them as volumes.
-#VOLUME /opt/jboss/jboss-eap/standalone/configuration/
-
 # lets default to the jboss-fuse dir so folks can more easily navigate to around the server install
 WORKDIR /opt/jboss/jboss-eap-6.1/
 CMD /opt/jboss/jboss-eap-6.1/bin/standalone.sh -Djboss.bind.address=0.0.0.0 -Djboss.bind.address.management=0.0.0.0
