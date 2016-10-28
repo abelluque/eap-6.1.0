@@ -1,0 +1,56 @@
+{
+	"id": "166c456e-1ec7-5c16-3248-60c386a35697",
+	"name": "billersplus-connector-emulador",
+	"description": "",
+	"order": [
+		"1e88fa9a-93cc-1fe3-ba10-1c1d6e38732e",
+		"e4b67f1c-0769-adf2-a7e3-9f0c480de2b0"
+	],
+	"folders": [],
+	"timestamp": 1477599695620,
+	"owner": "1084590",
+	"public": false,
+	"requests": [
+		{
+			"id": "1e88fa9a-93cc-1fe3-ba10-1c1d6e38732e",
+			"headers": "",
+			"url": "http://localhost:8080/billersplus-connector-emulador/connector/instances/1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "166c456e-1ec7-5c16-3248-60c386a35697",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/billersplus-connector-emulador/connector/instances/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1477599695620,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e4b67f1c-0769-adf2-a7e3-9f0c480de2b0",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/billersplus-connector-emulador/connector/register",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "166c456e-1ec7-5c16-3248-60c386a35697",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/billersplus-connector-emulador/connector/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1477599706503,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n  \"billerId\":1,\n  \"code\":\"123\",\n  \"name\":\"nameTest\",\n  \"parameters\": [{\n  \t\"code\":\"1\",\n  \t\"value\":\"valueTest\",\n  \t\"required\":true\n  }]\n}"
+		}
+	]
+}
